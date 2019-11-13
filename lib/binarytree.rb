@@ -39,7 +39,7 @@ class BinaryTreeSort
       #print "number = ", number, "\n"
 
       if @top.payload == nil
-      #  print "defining top node \n"
+        #print "defining top node \n"
          @top.payload = number
 
       else
@@ -84,6 +84,7 @@ mySort.display
 puts
 mySort.sort([0, 6, 11, -3, 8, 16, 12])
 mySort.display
+
 
 #seven = BinaryTree.new(7, nil, nil)
 #five  = BinaryTree.new(5, nil, nil)
